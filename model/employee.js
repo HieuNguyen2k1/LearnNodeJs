@@ -20,7 +20,7 @@ const employeeSchema = new mongoose.Schema({
     type: Date,
   },
   departmentId: {
-    type: mongoose.Schema.Types.ObjectId,
+    type: String,
     ref: "Department",
     require:true
   },
